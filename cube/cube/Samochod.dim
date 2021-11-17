@@ -1,0 +1,321 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9353cea5-0356-482e-8b0a-ac0591054ccc" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Samochod</ID>
+  <Name>Samochod</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1864" scrolltop="-3659" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8382" y="12319" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Samochod" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4614" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000612000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Samochod" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1864</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3659</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a8d4873a-bbfd-42a3-903c-8c943fc708a3">
+    <DataSourceViewID>Hurtownia</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="a8989d2a-46b0-481c-9f48-36214ee9703b">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="bf54ae9f-a54c-427e-bd9c-6c636418eee1">
+      <ID>Samochod ID</ID>
+      <Name>Samochod ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="838d8807-5ff0-4210-8412-32e4e9ca37eb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94339988-1df6-4581-8605-467e083b8909">
+            <TableID>dbo_Samochod</TableID>
+            <ColumnID>Samochod_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="699d6c09-05c6-4ca3-88f6-27081803dff0">
+          <AttributeID>ID Termin Przegladu</AttributeID>
+          <Name>ID Termin Przegladu</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="195c1c86-d811-45a9-ae0a-32c5d8ee29de">
+          <AttributeID>ID Termin Zakupu</AttributeID>
+          <Name>ID Termin Zakupu</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="496ef943-2851-4569-9193-862853a192d1">
+          <AttributeID>Marka</AttributeID>
+          <Name>Marka</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="09b422b6-572c-492a-8903-3d8dfc33e68e">
+          <AttributeID>Model</AttributeID>
+          <Name>Model</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a1cdb555-74b8-4733-a2a0-f05fce3d0d43">
+          <AttributeID>Rocznik</AttributeID>
+          <Name>Rocznik</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d69923e0-6f96-4a25-9bcb-41a4e47e44e3">
+          <AttributeID>Nr Rejestracyjny</AttributeID>
+          <Name>Nr Rejestracyjny</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bc85694c-82e2-4b91-828e-a4906296a762">
+          <AttributeID>Rodzaj Pojemnosc Silnika</AttributeID>
+          <Name>Rodzaj Pojemnosc Silnika</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b1c8ed6a-b23e-4129-83cb-168112a74132">
+          <AttributeID>Stan Licznika</AttributeID>
+          <Name>Stan Licznika</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="51cefb36-1a1a-4161-8e82-d0c3a7f986b7">
+          <AttributeID>Czy Powypadkowy</AttributeID>
+          <Name>Czy Powypadkowy</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="74f93378-e367-45a4-8102-a0714cf09993">
+          <AttributeID>Nr Vin</AttributeID>
+          <Name>Nr Vin</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1f09e065-886b-41f6-bae6-c87a9bbb8ef2">
+      <ID>ID Termin Przegladu</ID>
+      <Name>ID Termin Przegladu</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="76b59267-754f-462d-a41b-02f8c3576772">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f3f23aff-6591-4744-81b3-4e174fd7e77c">
+            <TableID>dbo_Samochod</TableID>
+            <ColumnID>ID_termin_przegladu</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="37c09434-75cb-47f9-abf6-b6ecb6fd8e08">
+      <ID>ID Termin Zakupu</ID>
+      <Name>ID Termin Zakupu</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="58ae9ff7-5814-4326-a387-4ef290ba7b80">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7ae827f8-9427-4016-a2a9-f05eace6a4d6">
+            <TableID>dbo_Samochod</TableID>
+            <ColumnID>ID_termin_zakupu</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ec586166-5d43-4c3c-ba18-c24d35c75f5e">
+      <ID>Marka</ID>
+      <Name>Marka</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="84f219f0-edd4-4588-89d9-9f444783e649">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c49da7c0-cec5-4d44-9162-98833b4bf3e9">
+            <TableID>dbo_Samochod</TableID>
+            <ColumnID>Marka</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6c18b724-e037-4ac7-a12e-a0ae343bbbb3">
+      <ID>Model</ID>
+      <Name>Model</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="edcccd32-fd3d-493d-a905-7291cde44da9">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="47d6a06e-368f-437c-b6ac-28d7bb4d313c">
+            <TableID>dbo_Samochod</TableID>
+            <ColumnID>Model</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3edf6ee1-bc47-4d38-8e56-0707f6eb43d1">
+      <ID>Rocznik</ID>
+      <Name>Rocznik</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="48a0d872-9233-49fa-b4cc-8a64eb6fc3c4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c3f3dda7-0f5d-4fd1-a889-77c7ef00ccab">
+            <TableID>dbo_Samochod</TableID>
+            <ColumnID>Rocznik</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b38e8f01-e6d1-4044-ba27-f7ef9631272d">
+      <ID>Nr Rejestracyjny</ID>
+      <Name>Nr Rejestracyjny</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="de9c9d6a-3524-4087-8454-482ed3cbbefb">
+          <DataType>WChar</DataType>
+          <DataSize>9</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="62594cd3-f4fd-4ac8-ad71-b509187df9ff">
+            <TableID>dbo_Samochod</TableID>
+            <ColumnID>Nr_rejestracyjny</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ad691527-70a4-4c62-a814-bd5018f7d046">
+      <ID>Rodzaj Pojemnosc Silnika</ID>
+      <Name>Rodzaj Pojemnosc Silnika</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1eeeae2f-b7f4-474e-a92d-1ed58f6efb0b">
+          <DataType>WChar</DataType>
+          <DataSize>14</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d62e2350-be20-4e22-b325-07f3273863fe">
+            <TableID>dbo_Samochod</TableID>
+            <ColumnID>Rodzaj_pojemnosc_silnika</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="980033af-f25a-4a61-b565-c73b7529b274">
+      <ID>Stan Licznika</ID>
+      <Name>Stan Licznika</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0d1fe6e0-a325-4456-b20a-98856bb374ec">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2ec4ffea-31ae-430f-bcd3-7a55d70f6c31">
+            <TableID>dbo_Samochod</TableID>
+            <ColumnID>Stan_licznika</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c1fbedca-48b6-4db1-a0f4-fe4f79329566">
+      <ID>Czy Powypadkowy</ID>
+      <Name>Czy Powypadkowy</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dbe79d08-aa9c-4340-99ff-cd779c7899e0">
+          <DataType>WChar</DataType>
+          <DataSize>12</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5c97f864-ff67-46b9-ad80-150601518ef7">
+            <TableID>dbo_Samochod</TableID>
+            <ColumnID>Czy_powypadkowy</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9517912b-e173-4ab2-afec-d4ce2f2a7dac">
+      <ID>Nr Vin</ID>
+      <Name>Nr Vin</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="355da8b5-7329-43fc-9c27-7335d821d61c">
+          <DataType>WChar</DataType>
+          <DataSize>17</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6a11de32-afa1-4a17-9292-fec4f59fe056">
+            <TableID>dbo_Samochod</TableID>
+            <ColumnID>Nr_vin</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="5245f52e-b1da-4ed7-885b-2efff286f085">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="1cd56b3a-38f4-4419-bf47-fb98c4a5a97d">
+          <ID>Marka</ID>
+          <Name>Marka</Name>
+          <SourceAttributeID>Marka</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d872b9df-738e-4df1-bc42-c29ba31220e4">
+          <ID>Model</ID>
+          <Name>Model</Name>
+          <SourceAttributeID>Model</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

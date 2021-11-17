@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>cube</Database>
+    <Server>DESKTOP-G4PJQRA</Server>
+    <ConnectionString>Data Source=DESKTOP-G4PJQRA;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>be3LIrlO6OIQfI1FaBPTm6fPEyI=17.11.2021 23:24:0417.11.2021 23:07:59</TimeStamp>
+        <ID>
+          <String>Hurtownia</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>hbAWMMApj8c/0Xy906GOSdIhzmc=17.11.2021 23:08:1617.11.2021 23:08:16</TimeStamp>
+        <ID>
+          <String>Hurtownia</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Cxr7sDI0or4yYSU3ru/GNNWYmbo=17.11.2021 23:09:2517.11.2021 23:08:40</TimeStamp>
+        <ID>
+          <String>Termin</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>F5u/1i3HE0OBSmeyEhIglJEzoIw=17.11.2021 23:11:2017.11.2021 23:08:40</TimeStamp>
+        <ID>
+          <String>Samochod</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gJFsujFUGi5SSbmr+o7iTQqdDXc=17.11.2021 23:11:3117.11.2021 23:08:40</TimeStamp>
+        <ID>
+          <String>Mechanik</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ULYQaTbjDNZbM9kZfpALZKiDrpc=17.11.2021 23:11:4117.11.2021 23:08:40</TimeStamp>
+        <ID>
+          <String>Klient</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rCl8WDvAUbeaPY2esipX7jXY2j8=17.11.2021 23:11:5117.11.2021 23:08:40</TimeStamp>
+        <ID>
+          <String>Skarga</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Rv2kgMphEvoUGQJByoYVeJCni1I=17.11.2021 23:41:5117.11.2021 23:08:40vN+CZYgvd5sOiDeh3rqj4Zi6PBk=17.11.2021 23:41:5117.11.2021 23:08:40</TimeStamp>
+        <ID>
+          <String>Hurtownia</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>leS07m5iZ6rsNw6uYD2hbHTejTw=17.11.2021 22:36:5117.11.2021 22:36:51</TimeStamp>
+      <ID>
+        <String>cube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-11-17T22:41:54.733333Z</LastDeployed>
+</DeploymentSnapshot>
