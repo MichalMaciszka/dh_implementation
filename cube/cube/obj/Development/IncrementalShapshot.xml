@@ -19,7 +19,7 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>be3LIrlO6OIQfI1FaBPTm6fPEyI=17.11.2021 23:43:2017.11.2021 23:07:59</TimeStamp>
+        <TimeStamp>uwIXPEv3VKSgMW06tF0ssiLVnGU=25.11.2021 22:29:4217.11.2021 23:07:59</TimeStamp>
         <ID>
           <String>Hurtownia</String>
         </ID>
@@ -68,7 +68,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>DOLMdIK+XvYcXAaWqs6kby84OK0=18.11.2021 12:06:4517.11.2021 23:08:40YDopAYQxm4V6YEe4Dij+bjKiXt0=18.11.2021 01:11:5717.11.2021 23:08:40</TimeStamp>
+        <TimeStamp>1yMMQ7L22Xf6JT+A93PdwujnLJg=18.11.2021 23:41:2317.11.2021 23:08:40YDopAYQxm4V6YEe4Dij+bjKiXt0=18.11.2021 01:11:5717.11.2021 23:08:40</TimeStamp>
         <ID>
           <String>Hurtownia</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2021-11-18T20:41:44.186667Z</LastDeployed>
+  <LastDeployed>2021-11-25T21:30:15.77Z</LastDeployed>
 </DeploymentSnapshot>

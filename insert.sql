@@ -1,7 +1,7 @@
 INSERT INTO Klient (ImieNazwisko, Nr_telefonu, Pesel) VALUES ('Steven Knapp', '601 264 856', '06051294988')
 INSERT INTO Klient (ImieNazwisko, Nr_telefonu, Pesel) VALUES ('Anthony Montgomery', '579 379 211', '37083112706')
-INSERT INTO Klient (ImieNazwisko, Nr_telefonu, Pesel) VALUES ('Anthony Montgomery', '510 961 046', '53070316003')
-INSERT INTO Klient (ImieNazwisko, Nr_telefonu, Pesel) VALUES ('Brittany,Jones', '32 861 36 68', '90060418808')
+INSERT INTO Klient (ImieNazwisko, Nr_telefonu, Pesel) VALUES ('Innny Klient', '510 961 046', '53070316003')
+INSERT INTO Klient (ImieNazwisko, Nr_telefonu, Pesel) VALUES ('Brittany Jones', '32 861 36 68', '90060418808')
 /*
 INSERT INTO Klient (ImieNazwisko, Nr_telefonu, Pesel) VALUES ('Sarah Townsend', '786 227 916', '06261531732')
 */
@@ -53,7 +53,7 @@ INSERT INTO Wyplata (Kwota, ID_mechanik, ID_termin_wyplaty) VALUES (2115.66, 4, 
 
 
 INSERT INTO Naprawa (Koszt, ID_samochod, ID_termin_rozpoczecia, ID_termin_zakonczenia) VALUES (123.45, 1, 1, 3)
-INSERT INTO Naprawa (Koszt, ID_samochod, ID_termin_rozpoczecia, ID_termin_zakonczenia) VALUES (788.44, 2, 5, 10)
+INSERT INTO Naprawa (Koszt, ID_samochod, ID_termin_rozpoczecia, ID_termin_zakonczenia) VALUES (788.44, 6, 5, 10)
 INSERT INTO Naprawa (Koszt, ID_samochod, ID_termin_rozpoczecia, ID_termin_zakonczenia) VALUES (585.12, 4, 2, 5)
 INSERT INTO Naprawa (Koszt, ID_samochod, ID_termin_rozpoczecia, ID_termin_zakonczenia) VALUES (188.45, 4, 5, 10)
 
@@ -68,3 +68,14 @@ INSERT INTO Zlecenie (Wartosc, ID_klient, ID_mechanik, ID_samochod, ID_skarga, I
 	(310.00, 4, 4, 4, 4, 5, 10)
 INSERT INTO Zlecenie (Wartosc, ID_klient, ID_mechanik, ID_samochod, ID_skarga, ID_termin_rozpoczecia, ID_termin_zakonczenia) VALUES
 	(74.00, 4, 1, 6, 5, 7, 8)
+
+
+
+
+INSERT INTO Termin (Dzien, Miesiac, Rok, Dzien_tygodnia, DzienWolny) VALUES (5, 'grudzieñ', 2020, 'sobota', 'dzieñ pracuj¹cy')
+INSERT INTO Termin (Dzien, Miesiac, Rok, Dzien_tygodnia, DzienWolny) VALUES (4, 'grudzieñ', 2020, 'pi¹tek', 'dzieñ pracuj¹cy')
+INSERT INTO Termin (Dzien, Miesiac, Rok, Dzien_tygodnia, DzienWolny) VALUES (5, 'listopad', 2020, 'poniedzia³ek', 'dzieñ pracuj¹cy')
+INSERT INTO Termin (Dzien, Miesiac, Rok, Dzien_tygodnia, DzienWolny) VALUES (6, 'listopad', 2020, 'wtorek', 'dzieñ pracuj¹cy')
+
+INSERT INTO Naprawa (Koszt, ID_samochod, ID_termin_rozpoczecia, ID_termin_zakonczenia) VALUES (200.00, 1, 11, 12)
+INSERT INTO Naprawa (Koszt, ID_samochod, ID_termin_rozpoczecia, ID_termin_zakonczenia) VALUES (300.00, 6, 13, 14)
