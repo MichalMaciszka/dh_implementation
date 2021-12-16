@@ -131,7 +131,7 @@
       <KeyColumns>
         <KeyColumn dwd:design-time-name="43266f7a-97a6-41aa-87f2-751f4009e247">
           <DataType>WChar</DataType>
-          <DataSize>15</DataSize>
+          <DataSize>20</DataSize>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="e628d908-36f5-4c65-9ae7-8b3d4a2cb61a">
             <TableID>dbo_Klient</TableID>
             <ColumnID>Nr_telefonu</ColumnID>

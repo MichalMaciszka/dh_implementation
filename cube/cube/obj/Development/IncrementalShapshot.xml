@@ -19,21 +19,21 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>uwIXPEv3VKSgMW06tF0ssiLVnGU=25.11.2021 22:29:4217.11.2021 23:07:59</TimeStamp>
+        <TimeStamp>aMiSWwj3Jcm9kmKqXskbUn5YbV4=14.12.2021 15:36:5917.11.2021 23:07:59</TimeStamp>
         <ID>
           <String>Hurtownia</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>hbAWMMApj8c/0Xy906GOSdIhzmc=17.11.2021 23:08:1617.11.2021 23:08:16</TimeStamp>
+        <TimeStamp>EbmzNXNmb0HkB0dgm1kgu6psWdE=14.12.2021 18:28:2217.11.2021 23:08:16</TimeStamp>
         <ID>
           <String>Hurtownia</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Cxr7sDI0or4yYSU3ru/GNNWYmbo=17.11.2021 23:09:2517.11.2021 23:08:40</TimeStamp>
+        <TimeStamp>7qCGBsQ5Q7kpVkZyvJiKSuz9ilg=14.12.2021 18:29:3817.11.2021 23:08:40</TimeStamp>
         <ID>
           <String>Termin</String>
         </ID>
@@ -54,7 +54,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ULYQaTbjDNZbM9kZfpALZKiDrpc=17.11.2021 23:11:4117.11.2021 23:08:40</TimeStamp>
+        <TimeStamp>Ri9BGaVMYmimaFgELG2UmMoSIFM=14.12.2021 15:47:4417.11.2021 23:08:40</TimeStamp>
         <ID>
           <String>Klient</String>
         </ID>
@@ -68,7 +68,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>1yMMQ7L22Xf6JT+A93PdwujnLJg=18.11.2021 23:41:2317.11.2021 23:08:40YDopAYQxm4V6YEe4Dij+bjKiXt0=18.11.2021 01:11:5717.11.2021 23:08:40</TimeStamp>
+        <TimeStamp>bfS+9rKM8hFgLs5+fWJY4VFPHNU=16.12.2021 17:42:0417.11.2021 23:08:40YDopAYQxm4V6YEe4Dij+bjKiXt0=18.11.2021 01:11:5717.11.2021 23:08:40</TimeStamp>
         <ID>
           <String>Hurtownia</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2021-11-25T21:30:15.77Z</LastDeployed>
+  <LastDeployed>2021-12-16T16:42:10.34Z</LastDeployed>
 </DeploymentSnapshot>
